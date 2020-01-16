@@ -61,7 +61,7 @@ class App extends Component {
             path='/crwn-clothing/signIn' 
             render={() => 
               this.props.currentUser ? (
-                <Redirect to='/' />
+                <Redirect to='/crwn-clothing/' />
               ) : (
                 <SignInAndSignUpPage />
               )
